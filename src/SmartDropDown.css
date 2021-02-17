@@ -1,0 +1,90 @@
+div.dropdown-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-container #csTaNotesCalls {
+  border: 1px solid #dfdfdf;
+}
+
+.axd-down-arrow:after {
+  content: "";
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-size: 13px;
+}
+
+.dropdown-value {
+  width: 100%;
+}
+
+.dropdown {
+  all: unset;
+  display: block;
+  max-height: 200px;
+  min-width: auto;
+  overflow: auto;
+  position: absolute;
+  top: 37px;
+  z-index: 19000;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+}
+.dropdown :empty {
+  border: none;
+}
+
+.dropdown li {
+  list-style: none;
+  padding: 5px;
+  color: #000;
+  cursor: pointer;
+  padding: 5px;
+  min-height: 23px;
+  line-height: 22px;
+}
+
+.dropdown li.focused {
+  background-color: #dff0ff;
+}
+
+.dropdown li.selected {
+  background-color: #add6f1;
+}
+
+li.no-hover {
+  color: #333;
+  cursor: default;
+}
+/*.dropdown-container{
+    border:1px solid lightgray;
+}*/
+.container-input {
+  width: 294px;
+  min-height: 30px;
+  margin: 1px;
+  border-radius: 7px;
+  padding: 2px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  border: 1px solid lightgray !important;
+}
+.more-link {
+  float: right;
+  color: blue;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+}
